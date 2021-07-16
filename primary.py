@@ -1,5 +1,5 @@
-# author:
-# date:
+# author:Layla
+# date:7/13/2021
 
 # --------------- Section 1 --------------- #
 
@@ -10,6 +10,14 @@
 #   b. Print the variable in all upper case.
 #   c. Print the variable in all lower case.
 #   d. Print the variable capitalized (Look to documentation.)
+
+name=('layla')
+print(name.upper())
+
+name1=('jones')
+print(name1.lower())
+
+
 
 
 # 2 | String Methods
@@ -27,6 +35,22 @@
 #   b. Using a built-in function, print the position of the vowel that shows up last.
 #   c. Using a built-in function, print the position of the vowel that shows up first.
 
+text = input('frogboy likes to play dolls')
+
+position_of_a =text.find('a')
+print('the position of a is:' , position_of_a)
+
+position_of_e =text.find('e')
+print('the position of e is:' , position_of_e)
+
+position_of_i =text.find('i')
+print('the position of i is:' , position_of_i)
+
+position_of_o =text.find('o')
+print('the position of o is:' , position_of_o)
+
+position_of_u =text.find('u')
+print('the position of u is:' , position_of_u)
 
 # 4 | String Indexing
 #
@@ -37,6 +61,10 @@
 #       HINT: There are multiple ways of doing this. Is there a function that we can use that will find
 #           the position of the last letter, or atleast one off from it?
 
+print('\nquestion 4')
+text = input('i like raccoon')
+print(text[4])
+print(text[len(text) - 1])
 
 # 5 | String Slicing
 #
